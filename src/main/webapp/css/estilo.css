@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h2{
+	font-family: Palatino Linotype;
+	text-align: center;
+}
+
+.valor {
+	font-family: Courier New;
+	color: green;
+	
+}
+
+.number-input input[type=number]{
+	text-align: center;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+	.number-input input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+}
+
+.confirmar {
+	margin: auto;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
